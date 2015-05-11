@@ -52,6 +52,7 @@ This module was developed for experimental purposes and is still on its early st
     <tablesorter config="tblConfig" table-data="tblData"></tablesorter>
 
 
+
 ## License
 
 angular-tablesorter is licensed under the [MIT License](http://opensource.org/licenses/MIT) and [GNU General Public License](https://www.gnu.org/licenses/gpl.html).
