@@ -14,7 +14,7 @@ angular.module('angular-tablesorter', [])
 	    '<select class="pagesize form-control input-sm"><option ng-repeat="value in [ 10, 20, 30, 40, 50 ]" value="{{value}}">{{value}}</option></select>' +
 	    '</form>';
 
-	var tfoot = '<tfoot ng-if="showPager"><tr><td colspan="{{columns.length}}" class="pager">' + pager + '</td></tr></tfoot>';
+	var tfoot = '<tfoot ng-if="showPager && rows.length > 10"><tr><td colspan="{{columns.length}}" class="pager">' + pager + '</td></tr></tfoot>';
 
 	return {
 		restrict: 'E',
