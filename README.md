@@ -24,11 +24,10 @@ This module was developed for experimental purposes and is still on its early st
 			
 			// tablesorter configuration options
 			$scope.tblConfig = {
-				headerTemplate : '{icon}{content}',
+				theme : 'defaut', // include theme stylesheet
+				headerTemplate : '{content} {icon}',
 				sortReset: true,
-				sortRestart : true,
-				theme: 'blue',
-				widgets" [ 'uitheme' ]
+				widgets: [ 'uitheme', 'stickyHeaders', 'pager' ]
 			};
 			
 			// table data
