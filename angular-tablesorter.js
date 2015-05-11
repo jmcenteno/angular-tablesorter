@@ -1,6 +1,6 @@
 angular.module('angular-tablesorter', [])
 
-.directive('gridView', ['$timeout', function ($timeout) {
+.directive('tablesorter', ['$timeout', function ($timeout) {
 
 	var tpl = '<table><thead><tr></tr></thead><tbody></tbody></table>'
 
