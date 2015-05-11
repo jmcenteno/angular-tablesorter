@@ -9,7 +9,7 @@ This module was developed for experimental purposes and is still on its early st
 ## Getting Started
 
 * Get [all files](//github.com/jmcenteno/angular-tablesorter/archive/master.zip)
-* Use [bower](http://bower.io/): $ bower install git@github.com:jmcenteno/angular-tablesorter.git
+* Use [bower](http://bower.io/): ```bower install git@github.com:jmcenteno/angular-tablesorter.git```
 * Include angular-tablesorter.js
 
 **Note:** Make sure to include jQuery and Tablesorter plugin, along with theme stylesheets and widgets that extend the core functionality of Tablesorter.
