@@ -19,7 +19,7 @@ This module was developed for experimental purposes and is still on its early st
 
 	**Configuration:**
 
-	```angular.module('MyModule').controller('MyCtrl', [ '$scope',
+	angular.module('MyModule').controller('MyCtrl', [ '$scope',
 		function ($scope) {
 			
 			// tablesorter configuration options
@@ -46,11 +46,11 @@ This module was developed for experimental purposes and is still on its early st
 			];
 
 		}
-	]);```
+	]);
 
 	**Calling the directive:**
 	
-    ```<tablesorter config="tblConfig" table-data="tblData"></tablesorter>```
+    <tablesorter config="tblConfig" table-data="tblData"></tablesorter>
 
 
 ## License
