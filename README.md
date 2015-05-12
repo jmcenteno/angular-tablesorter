@@ -56,7 +56,7 @@ angular.module('MyModule').controller('MyCtrl', ['$scope',
 **Calling the directive:**
 
 ```html
-<tablesorter config="tblConfig" table-data="tblData"></tablesorter>
+<tablesorter config="tblConfig" ng-model="tblData"></tablesorter>
 ```
 
 
